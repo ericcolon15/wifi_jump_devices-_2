@@ -1,0 +1,39 @@
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+ background-image: linear-gradient(black, #F0950C);
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100%;
+}
+
+.wifiFooter{
+    color: white;
+    background-color: #1E1E1E;
+    height: 500px;
+    width: 100%;
+    padding: 45px;
+    margin-top: 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+.footerLogo{
+    margin: 0 auto;
+    padding: 45px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footerImgs{
+    width: 100%;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.footerContent{
+    text-align: center;
+}
