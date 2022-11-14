@@ -1,5 +1,6 @@
 h1, h2, h3, h4, h5, h6, p{
     font-family: 'Montserrat', sans-serif;
+    color: white
 }
 
 body {
@@ -9,10 +10,41 @@ body {
  height: 100%;
 }
 
+.wifiPortal{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #1E1E1E;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wifiPortal h1{
+    padding-top: 20px;
+    color: white;
+}
+
+.internetLogo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+
+.connectedDevices{
+    display: inline-flex;
+    padding: 15px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+
+
 .wifiFooter{
     color: white;
     background-color: #1E1E1E;
-    height: 500px;
+    height: 475px;
     width: 100%;
     padding: 45px;
     margin-top: 40px;
