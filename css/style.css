@@ -25,21 +25,57 @@ body {
 }
 
 .internetLogo{
+    width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 25px;
+    padding: 45px;
 }
 
 .connectedDevices{
-    display: inline-flex;
-    padding: 15px;
-    margin: 0 auto;
-    justify-content: space-between;
+ background-color: #a74c0b;
+ padding: 25px;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
 }
 
+.connectedContent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 60px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center; 
+}
 
+.disconnectedDevices{
+    background-color: #1E1E1E;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 
+.disconnectedImg{
+    width: 100%;
+    align-items: center;
+    padding: 45px;
+    text-align: center;
+}
+
+.deviceNames{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 45px;
+    margin: 25px;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
 
 .wifiFooter{
     color: white;
